@@ -4,6 +4,9 @@
 
 ![expected layout](assets/expected-layout.svg)
 
+-   Features image size - w: 571.5; h: 321.47
+-   Newswire image size - w: 273.75; h: 153.98
+
 ### Containers
 
 -   #container
@@ -25,7 +28,7 @@
 ## Project Planning
 
 -   Markup expected layout and name [complete]
--   Layout header container with flexbox and grid
--   Style main container
+-   Layout header container with flexbox and grid [complete]
+-   Layout main container with flexbox and grid [complete]
 -   Build HTML
 -   Style with grid and flexbox

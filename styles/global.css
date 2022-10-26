@@ -39,3 +39,17 @@ header {
     width: 1188px;
     height: 290px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 558px 267px 267px;
+}
+
+#features img {
+    width: 100%;
+    object-fit: contain;
+}
+
+cite {
+    font-style: italic;
+}
