@@ -30,5 +30,4 @@
 -   Markup expected layout and name [complete]
 -   Layout header container with flexbox and grid [complete]
 -   Layout main container with flexbox and grid [complete]
--   Build HTML
--   Style with grid and flexbox
+-   Remove planning colors and add element styles [complete]
