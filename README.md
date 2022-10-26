@@ -24,7 +24,8 @@
 
 ## Project Planning
 
--   Markup expected layout and name containers
--   Style containers
+-   Markup expected layout and name [complete]
+-   Layout header container with flexbox and grid
+-   Style main container
 -   Build HTML
 -   Style with grid and flexbox

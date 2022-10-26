@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <div id="container">
+            <header>
+                <div id="sister-sites">
+                    <a href="#">The A.V. Club</a>
+                    <a href="#">Deadspin</a>
+                    <a href="#">Gizmodo</a>
+                    <a href="#">Jalopnik</a>
+                    <a href="#">Jezebel</a>
+                    <a href="#">Kotaku</a>
+                    <a href="#">Lifehacker</a>
+                    <a href="#">Quartz</a>
+                    <a href="#">The Root</a>
+                    <a href="#">The Takeout</a>
+                    <a href="#">The Onion</a>
+                    <a href="#">The Inventory</a>
+                </div>
 
-</head>
+                <div id="primary-header">
+                    <div id="logo">AV Club</div>
+                    <div id="secondary-nav">
+                        <a href="#">Send us a tip!</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Subscribe</a>
+                    </div>
+                </div>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+                <div id="primary-nav">
+                    <a href="#">Home</a>
+                    <a href="#">Latest</a>
+                    <a href="#">News</a>
+                    <a href="#">TV</a>
+                    <a href="#">Film</a>
+                    <a href="#">Music</a>
+                    <a href="#">Games</a>
+                    <a href="#">Aux</a>
+                </div>
 
-    <main>
-
-    </main>
-
-</body>
-
+                <div id="ad-banner">
+                    Ad Banner
+                    <!-- <img src="http://placekitten.com/1188/290" alt="Place kitten" /> -->
+                </div>
+            </header>
+            <main></main>
+        </div>
+    </body>
 </html>
